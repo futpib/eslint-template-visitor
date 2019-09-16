@@ -3,6 +3,16 @@
 
 Simplify eslint rules by visiting templates
 
+## Install
+
+```
+npm install eslint-template-visitor
+
+# or
+
+yarn add eslint-template-visitor
+```
+
 ## Showcase
 
 ```diff
