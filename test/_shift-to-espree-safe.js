@@ -15,10 +15,10 @@ class RegexReducer extends CloneReducer {
 
 class NoReservedKeywordsReducer extends CloneReducer {
 	isSafeName(name) {
-		return !isReservedWord(name, 3) &&
-			!isReservedWord(name, 6, true) &&
-			name !== 'arguments' &&
-			name !== 'eval';
+		return !isReservedWord(name, 3)
+			&& !isReservedWord(name, 6, true)
+			&& name !== 'arguments'
+			&& name !== 'eval';
 	}
 
 	reduceLabeledStatement(node, rest) {
