@@ -1734,6 +1734,11 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
+eslint-ava-rule-tester@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-ava-rule-tester/-/eslint-ava-rule-tester-3.0.0.tgz#e85c73df1492a97aee4a22fece975199d051a1ed"
+  integrity sha512-IQN76OpP2NtSh4LgEwY3ny1kdUEzGoxLs4m0LpVmJdkHrNCTPndypm7NCTUhrp3CCVL2YM6fwI1SdfaAK+pgZw==
+
 eslint-config-prettier@^3.3.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.6.0.tgz#8ca3ffac4bd6eeef623a0651f9d754900e3ec217"
