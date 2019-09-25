@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "GPL-3.0-or-later OR MIT",
   "peerDependencies": {
-    "eslint": "^5.13.0"
+    "eslint": "^6.4.0"
   },
   "devDependencies": {
     "ava": "^2.4.0",
@@ -16,13 +16,13 @@
     "nyc": "^14.1.1",
     "ramda": "^0.26.1",
     "reserved-words": "^0.1.2",
-    "seedrandom": "^3.0.3",
+    "seedrandom": "^3.0.5",
     "shift-codegen": "^6.0.0",
     "shift-fuzzer": "^1.0.2",
     "shift-parser": "^7.0.0",
     "shift-reducer": "^6.0.0",
     "shift-scope": "^4.0.0",
-    "sinon": "^7.4.2",
+    "sinon": "^7.5.0",
     "xo": "^0.24.0"
   },
   "dependencies": {
