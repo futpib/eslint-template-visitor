@@ -1,8 +1,8 @@
 
-import reduceUsing, { CloneReducer } from 'shift-reducer';
-import analyzeScope, { ScopeLookup } from 'shift-scope';
+const { default: reduceUsing, CloneReducer } = require('shift-reducer');
+const { default: analyzeScope, ScopeLookup } = require('shift-scope');
 
-import { check as isReservedWord } from 'reserved-words';
+const { check: isReservedWord } = require('reserved-words');
 
 class RegexReducer extends CloneReducer {
 	reduceLiteralRegExpExpression(node) {
@@ -263,7 +263,7 @@ class UniqueBindingIdentifiersReducer extends CloneReducer {
 	}
 }
 
-export default shiftAST => {
+module.exports = shiftAST => {
 	[
 		NoNonStrictFeaturesReducer,
 		RegexReducer,

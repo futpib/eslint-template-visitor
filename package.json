@@ -7,28 +7,28 @@
     "eslint": "^6.4.0"
   },
   "devDependencies": {
-    "ava": "^2.4.0",
-    "coveralls": "^3.0.6",
-    "eslint": "^6.4.0",
-    "eslint-ava-rule-tester": "^3.0.0",
+    "ava": "^3.4.0",
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
+    "eslint-ava-rule-tester": "^4.0.0",
     "eslint-config-xo-overrides": "^1.4.0",
     "esrecurse": "^4.2.1",
-    "nyc": "^14.1.1",
-    "ramda": "^0.26.1",
+    "nyc": "^15.0.0",
+    "ramda": "^0.27.0",
     "reserved-words": "^0.1.2",
     "seedrandom": "^3.0.5",
-    "shift-codegen": "^6.0.0",
+    "shift-codegen": "^7.0.0",
     "shift-fuzzer": "^1.0.2",
     "shift-parser": "^7.0.0",
     "shift-reducer": "^6.0.0",
     "shift-scope": "^4.0.0",
-    "sinon": "^7.5.0",
-    "xo": "^0.24.0"
+    "sinon": "^9.0.0",
+    "xo": "^0.26.1"
   },
   "dependencies": {
     "eslint-visitor-keys": "^1.1.0",
-    "espree": "^6.1.1",
-    "multimap": "^1.0.2"
+    "espree": "^6.1.2",
+    "multimap": "^1.1.0"
   },
   "xo": {
     "extends": [
