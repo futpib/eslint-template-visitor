@@ -1,6 +1,5 @@
 
 const errors = [ {
-	ruleId: 'prefer-string-slice',
 } ];
 
 module.exports = (ruleTester, rule) => ruleTester.run('prefer-string-slice', rule, {
