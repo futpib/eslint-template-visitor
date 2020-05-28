@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "main": "index.js",
   "license": "GPL-3.0-or-later OR MIT",
+  "repository": "futpib/eslint-template-visitor",
   "peerDependencies": {
     "eslint": ">=7.0.0"
   },
