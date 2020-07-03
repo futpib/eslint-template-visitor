@@ -106,6 +106,12 @@ Create a spread variable. Spread variable can match an array of AST nodes.
 
 This is useful for matching a number of arguments in a call or a number of statements in a block.
 
+### `templates.variableDeclarationVariable()`
+
+Create a variable declaration variable. Variable declaration variable can match any type of variable declaration node.
+
+This is useful for matching any variable declaration, be it `const`, `let` or `var`.
+
 ### `templates.template` tag
 
 Creates a template possibly containing variables.
