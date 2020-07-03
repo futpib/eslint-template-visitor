@@ -112,6 +112,16 @@ Create a variable declaration variable. Variable declaration variable can match 
 
 This is useful for matching any variable declaration, be it `const`, `let` or `var`.
 
+Use it in place of a variable declaration keyword:
+
+```js
+const variableDeclarationVariable = templates.variableDeclarationVariable();
+
+const template = templates.template`() => {
+	${variableDeclarationVariable} x = y;
+}`;
+```
+
 ### `templates.template` tag
 
 Creates a template possibly containing variables.
