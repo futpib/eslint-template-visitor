@@ -84,7 +84,7 @@ Type: `object`
 
 ##### `parserOptions`
 
-Options for the template parser. Passed down to [`espree`](https://github.com/eslint/espree#usage).
+Options for the template parser. Passed down to [`babel-eslint`](https://github.com/babel/babel-eslint#additional-parser-configuration).
 
 Example:
 
