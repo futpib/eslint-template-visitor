@@ -206,3 +206,26 @@ const create = () => templates.visitor({
 	},
 });
 ```
+
+### `template.narrow(selector, targetMatchIndex = 0)`
+
+Narrow the template to a part of the AST matching the selector.
+
+Sometimes you can not define a wanted template at the top level due to JS syntax limitations.
+For example, you can't have `await` or `yield` at the top level of a script.
+
+Use a wrapper function in the template and then `narrow` it to a wanted AST node:
+
+```js
+const template = templates.template`
+	async () => { await 1; }
+`.narrow('BlockStatement > :has(AwaitExpression)');
+```
+
+The `template` above is equivalent to this:
+
+```js
+const template = templates.template`await 1`;
+```
+
+Except the latter can not be defined directly due to [`espree` limitations](https://github.com/eslint/espree/issues/409).
