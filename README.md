@@ -84,7 +84,7 @@ Type: `object`
 
 ##### `parserOptions`
 
-Options for the template parser. Passed down to [`babel-eslint`](https://github.com/babel/babel-eslint#additional-parser-configuration).
+Options for the template parser. Passed down to [`@babel/eslint-parser`](https://github.com/babel/@babel/eslint-parser#additional-parser-configuration).
 
 Example:
 
