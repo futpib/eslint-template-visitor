@@ -1,6 +1,6 @@
 {
   "name": "eslint-template-visitor",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "main": "index.js",
   "license": "GPL-3.0-or-later OR MIT",
   "repository": "futpib/eslint-template-visitor",
