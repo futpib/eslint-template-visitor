@@ -1,8 +1,6 @@
 
 const { map } = require('ramda');
 
-const { parse } = require('@babel/eslint-parser');
-
 const visit = (node, visitor) => {
 	if (!node || (typeof node !== 'object' && !Array.isArray(node))) {
 		return node;
@@ -24,7 +22,7 @@ module.exports = ast => {
 		RegExpLiteral(node) {
 			// WORKAROUND: https://github.com/babel/@babel/eslint-parser/issues/838
 			shouldSkip = true;
-			return parse(node.raw).body[0].expression;
+			return node;
 		},
 	});
 
